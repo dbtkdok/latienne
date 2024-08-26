@@ -23,6 +23,7 @@ CSS STRUCTURE:
 /*--------------------------------------------------------------
 /** 1. VARIABLES
 --------------------------------------------------------------*/
+@import url('//fonts.googleapis.com/earlyaccess/nanumgothic.css');
 :root {
   --accent-color: #0d0d0d;
   --bs-gray-100: #f3f3f3;
@@ -52,6 +53,7 @@ CSS STRUCTURE:
 :root {
   --body-font: "Poppins", sans-serif;
   --heading-font: "Cinzel", sans-serif;
+  --text-font: 'Cormorant','Apple SD Gothic Neo, Malgun Gothic, Nanum Gothic, Meiryo, sans-serif, serif, Arial','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif'
 }
 
 /*----------------------------------------------*/
