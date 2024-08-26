@@ -24,6 +24,8 @@ CSS STRUCTURE:
 /** 1. VARIABLES
 --------------------------------------------------------------*/
 @import url('//fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
 :root {
   --accent-color: #0d0d0d;
   --bs-gray-100: #f3f3f3;
@@ -53,7 +55,9 @@ CSS STRUCTURE:
 :root {
   --body-font: "Poppins", sans-serif;
   --heading-font: "Cinzel", sans-serif;
-  --text-font: 'Cormorant','Apple SD Gothic Neo, Malgun Gothic, Nanum Gothic, Meiryo, sans-serif, serif, Arial','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif'
+  --text-font: 'Cormorant','Apple SD Gothic Neo, Malgun Gothic, Nanum Gothic, Meiryo, sans-serif, serif, Arial','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+  --eng-font: 'Qwitcher Grypen', 'cursive';
+  --eng2-font: "Alike Angular", "serif";
 }
 
 /*----------------------------------------------*/
@@ -134,6 +138,14 @@ a:hover {
 .padding-medium {
   padding-top: 4em;
   padding-bottom: 4em;
+}
+
+.eng_fonts {
+  font-family: var(--eng-font) !important;
+}
+
+.eng_fonts2 {
+  font-family: var(--eng2-font) !important;
 }
 
 .padding-large {
