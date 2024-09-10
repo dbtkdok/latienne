@@ -27,6 +27,7 @@ CSS STRUCTURE:
 @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 :root {
   --accent-color: #0d0d0d;
   --bs-gray-100: #f3f3f3;
@@ -60,6 +61,7 @@ CSS STRUCTURE:
   --eng-font: 'Qwitcher Grypen', 'cursive';
   --eng2-font: "Alike Angular", "serif";
   --eng3-font: "Noto Serif KR", "serif";
+  --eng4-font: "Nanum Myeongjo", "serif";
 }
 
 /*----------------------------------------------*/
@@ -152,6 +154,10 @@ a:hover {
 
 .eng_fonts3 {
   font-family: var(--eng3-font) !important;
+}
+
+.eng_fonts4 {
+  font-family: var(--eng4-font) !important;
 }
 
 .padding-large {
